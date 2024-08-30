@@ -1,0 +1,776 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Manrope", sans-serif;
+  font-optical-sizing: auto;
+
+  font-style: normal;
+  /* Layout Properties */
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  /* UI Properties */
+  background: #f6f7f8 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+
+.containerpadding {
+  padding-top: 20px;
+}
+.container {
+  /* Layout Properties */
+  top: 18px;
+  left: 18px;
+  width: 98%;
+  margin: 0 auto;
+  height: 72px;
+  /* UI Properties */
+  background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border-radius: 70px;
+  opacity: 1;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.Testlogo {
+  /* Layout Properties */
+  top: 30px;
+  left: 50px;
+  /* width: 30%;
+  height: 48px; */
+  /* UI Properties */
+  background: transparent url("img/TestLogo.png") 0% 0% no-repeat padding-box;
+  opacity: 1;
+
+  padding-left: 19px;
+}
+
+.Testlogo img {
+  width: 70%;
+}
+
+.navbar li {
+  /* Layout Properties */
+  top: 45px;
+  left: 498px;
+
+  /* UI Properties */
+  font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold)
+    var(--unnamed-font-size-14) / var(--unnamed-line-spacing-19)
+    var(--unnamed-font-family-manrope);
+  letter-spacing: var(--unnamed-character-spacing-0);
+  color: var(--unnamed-color-072635);
+  text-align: left;
+  font: normal normal bold 14px/19px Manrope;
+  letter-spacing: 0px;
+  color: #072635;
+  opacity: 1;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.navbar ul {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.menu2 {
+  /* Layout Properties */
+  top: 34px;
+  left: 601px;
+  width: 122px;
+  height: 41px;
+  /* UI Properties */
+  background: var(--activestate_bg_1) 0% 0% no-repeat padding-box;
+  background: #01f0d0 0% 0% no-repeat padding-box;
+  border-radius: 41px;
+  opacity: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu1img {
+  display: flex;
+  align-items: center;
+
+  justify-content: center;
+  gap: 7px;
+}
+
+.menu1img img {
+  width: 15px;
+}
+.menu2img img {
+  width: 15px;
+}
+
+.menu2img {
+  /* Layout Properties */
+  top: 34px;
+  left: 601px;
+  width: 122px;
+  height: 41px;
+  /* UI Properties */
+  background: var(--activestate_bg_1) 0% 0% no-repeat padding-box;
+  background: #01f0d0 0% 0% no-repeat padding-box;
+  border-radius: 41px;
+  opacity: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 7px;
+}
+
+.userimg img {
+  top: 32px;
+  left: 1309px;
+  width: 44px;
+  height: 44px;
+  background: transparent
+    url("img/senior-woman-doctor-and-portrait-smile-for-health-2023-11-27-05-18-16-utc.png")
+    0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+
+.userimgcontent {
+  top: 35px;
+  left: 1361px;
+  /* width: 119px;
+  height: 19px; */
+  font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold)
+    var(--unnamed-font-size-14) / var(--unnamed-line-spacing-19)
+    var(--unnamed-font-family-manrope);
+  letter-spacing: var(--unnamed-character-spacing-0);
+  color: var(--unnamed-color-072635);
+  text-align: left;
+  /* font: normal normal bold 14px/19px Manrope; */
+  letter-spacing: 0px;
+  color: #072635;
+  opacity: 1;
+}
+.jose {
+  font-weight: 700;
+}
+.userimgcontent div p {
+  font-size: 13px;
+}
+.menuend {
+  display: flex;
+  padding-right: 20px;
+  gap: 12px;
+  justify-content: center;
+  align-items: center;
+}
+
+.settingmenu {
+  padding-left: 12px;
+}
+
+.userimgcontent p {
+  font-size: 8px;
+}
+
+.general {
+  /* Layout Properties */
+  top: 54px;
+  left: 1361px;
+
+  /* UI Properties */
+  font: var(--unnamed-font-style-normal) normal
+    var(--unnamed-font-weight-normal) var(--unnamed-font-size-14) /
+    var(--unnamed-line-spacing-19) var(--unnamed-font-family-manrope);
+  letter-spacing: var(--unnamed-character-spacing-0);
+  color: var(--unnamed-color-707070);
+  text-align: left;
+  font: normal normal normal 14px/19px Manrope;
+  letter-spacing: 0px;
+  color: #707070;
+  opacity: 1;
+}
+
+.item1 {
+  /* Layout Properties */
+  top: 122px;
+  left: 18px;
+  width: 367px;
+  height: 1054px;
+  /* UI Properties */
+  background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border-radius: 16px;
+  opacity: 1;
+}
+
+.layout2 {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+}
+::-webkit-scrollbar {
+  overflow: hidden;
+}
+.item2 {
+  /* Layout Properties */
+  top: 122px;
+  left: 417px;
+  width: 650px;
+  height: 673px;
+  /* UI Properties */
+  background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border-radius: 16px;
+  opacity: 1;
+}
+
+.basecontainer1 {
+  /* Layout Properties */
+  top: 827px;
+  left: 417px;
+  width: 650px;
+  height: 349px;
+  /* UI Properties */
+  background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border-radius: 16px;
+  opacity: 1;
+}
+
+.item3 {
+  /* Layout Properties */
+  top: 108px;
+  left: 1216px;
+  width: 367px;
+  height: 740px;
+  /* UI Properties */
+  background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border-radius: 16px;
+  opacity: 1;
+}
+
+.basecontainer2 {
+  /* Layout Properties */
+  top: 880px;
+  left: 1215px;
+  width: 367px;
+  height: 296px;
+  /* UI Properties */
+  background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border-radius: 16px;
+  opacity: 1;
+}
+
+.basehold1 {
+  flex-direction: column;
+  display: flex;
+  gap: 15px;
+}
+
+.basehold2 {
+  flex-direction: column;
+  display: flex;
+  gap: 15px;
+}
+
+.padlayout2 {
+  padding: 30px;
+}
+
+.patientsearch {
+  display: flex;
+  justify-content: space-between;
+  padding: 17px;
+  align-items: center;
+}
+
+.patient p {
+  /* Layout Properties */
+  top: 142px;
+  left: 38px;
+
+  /* UI Properties */
+  font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-800)
+    var(--unnamed-font-size-24) / var(--unnamed-line-spacing-33)
+    var(--unnamed-font-family-manrope);
+  letter-spacing: var(--unnamed-character-spacing-0);
+  color: var(--unnamed-color-072635);
+  text-align: left;
+  font-weight: 700;
+  letter-spacing: 0px;
+  color: #072635;
+  opacity: 1;
+}
+
+.search img {
+  /* Layout Properties */
+
+  width: 12px;
+
+  /* UI Properties */
+}
+
+.search {
+  /* Layout Properties */
+  top: 150px;
+  left: 347px;
+
+  /* UI Properties */
+  background: transparent url("img/search_FILL0_wght300_GRAD0_opsz24.png") 0% 0%
+    no-repeat padding-box;
+  opacity: 1;
+}
+
+.patientsparent {
+  display: inline-block;
+}
+
+.flexcontentwithimg {
+  display: flex;
+  justify-content: flex-start;
+
+  width: 100%;
+}
+.patientcontainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 65px;
+  padding-bottom: 20px;
+}
+
+.patient1img {
+  display: flex;
+  gap: 7px;
+  justify-content: center;
+  align-items: center;
+}
+.patient1img img {
+  width: 25%;
+}
+
+.patient1details p {
+  font-size: 10px;
+}
+
+.patient1toggle img {
+  width: 80%;
+}
+
+.patient1toggle {
+  padding-right: 12px;
+}
+.emily {
+  font-weight: 600;
+}
+.female {
+  color: grey;
+}
+
+.slide {
+  background-color: rgba(181, 178, 178, 0.415);
+  width: 5px;
+  border-radius: 12px;
+}
+.slide1 {
+  background-color: rgba(0, 0, 0, 0.761);
+  width: 100%;
+  border-radius: 12px;
+  height: 58px;
+}
+
+.clue {
+  display: flex;
+}
+
+/* item 2 */
+
+.list {
+  padding-top: 15px;
+  padding-left: 20px;
+  font-size: 18px;
+}
+
+.describestatus {
+  /* Layout Properties */
+  top: 920px;
+  left: 437px;
+  width: 95%;
+  height: 48px;
+  /* UI Properties */
+  background: #f6f7f8 0% 0% no-repeat padding-box;
+  border-radius: 24px;
+  opacity: 1;
+
+  display: flex;
+  gap: 200px;
+  /* justify-content: center; */
+  align-items: center;
+  padding: 6px;
+
+  justify-content: center;
+}
+
+.description {
+  display: flex;
+  gap: 75px;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.status {
+  display: flex;
+  gap: 20px;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.describestatuscontainer {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  border: 2px solid black;
+  align-items: center;
+}
+
+.row1 {
+  display: flex;
+  gap: 120px;
+  font-size: 12px;
+
+  padding: 12px;
+}
+
+.row1container {
+  display: flex;
+  gap: 105px;
+}
+
+.taylorimg {
+  text-align: center;
+  padding-top: 30px;
+}
+
+.taylorimg img {
+  width: 45%;
+}
+
+.taylorimg p {
+  padding-top: 15px;
+  font-weight: bold;
+}
+
+.birthicon img {
+  width: 25px;
+}
+
+.jessicainfo {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  padding-left: 20px;
+  padding-top: 20px;
+}
+
+.dobtxt {
+  font-size: 11px;
+}
+
+.jesiccainfocontainer {
+  height: 40%;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 30px;
+}
+
+.btn button {
+  /* Layout Properties */
+  width: 50%;
+  padding: 12px;
+  /* UI Properties */
+  background: var(--activestate_bg_1) 0% 0% no-repeat padding-box;
+  background: #01f0d0 0% 0% no-repeat padding-box;
+  border-radius: 41px;
+  opacity: 1;
+  font-size: 10px;
+  border: none;
+  font-weight: bold;
+}
+
+.labresult {
+  padding: 20px;
+}
+.labresult p {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.labresulttxt {
+  display: flex;
+
+  padding-left: 25px;
+  align-items: center;
+  justify-content: space-between;
+  gap: 100px;
+}
+
+.lab {
+  font-size: 12px;
+}
+
+.labimg {
+  padding-right: 40px;
+}
+.labimg img {
+  width: 16px;
+}
+
+.labresultcontainer {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.labresulttxtct {
+  display: flex;
+
+  padding-left: 25px;
+  align-items: center;
+  justify-content: space-between;
+  top: 994px;
+  left: 1237px;
+
+  height: 40px;
+  /* UI Properties */
+  background: #f6f7f8 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+.labct {
+  font-size: 12px;
+
+  display: flex;
+}
+
+.padlabct {
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.baseslide2 {
+  /* border: 2px solid black; */
+  display: flex;
+  padding-right: 40px;
+  justify-content: center;
+}
+
+/* .basecontainer2 {
+  border: 2px solid green;
+} */
+
+.dragmain {
+  background-color: rgba(128, 128, 128, 0.389);
+  display: flex;
+  width: 5px;
+  border-radius: 12px;
+}
+
+.drag {
+  border: 2px solid black;
+  height: 25%;
+  border-radius: 12px;
+}
+
+/* item 2 */
+/* .item2 {
+  border: 2px solid red;
+} */
+
+.history {
+  padding: 20px;
+  font-weight: bold;
+}
+
+.item2boxes {
+  height: 35vh;
+  display: flex;
+  gap: 12px;
+  padding: 12px;
+}
+
+.item2boxes div {
+  width: 40%;
+  border-radius: 12px;
+}
+
+.respiratory {
+  background: #e0f3fa 0% 0% no-repeat padding-box;
+  border-radius: 12px;
+  opacity: 1;
+  padding: 20px;
+}
+
+.respiratory img {
+  width: 40%;
+}
+
+.rate {
+  font-size: 12px;
+  padding-top: 8px;
+  font-weight: 600;
+}
+
+.bpm {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.status {
+  font-size: 12px;
+  font-weight: 400;
+  padding-top: 25px;
+}
+
+.temperature {
+  background: #ffe6e9 0% 0% no-repeat padding-box;
+  border-radius: 12px;
+  opacity: 1;
+  padding: 20px;
+}
+
+.temperature img {
+  width: 40%;
+}
+
+.heartrate {
+  background: #ffe6f1 0% 0% no-repeat padding-box;
+  border-radius: 12px;
+  opacity: 1;
+  padding: 20px;
+}
+
+.heartrate img {
+  width: 40%;
+}
+
+.dl {
+  padding: 20px;
+
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.basepds {
+  /* border: 2px solid red; */
+  display: flex;
+  justify-content: center;
+
+  padding-bottom: 12px;
+}
+
+.pds {
+  background: #f6f7f8 0% 0% no-repeat padding-box;
+  border-radius: 24px;
+  opacity: 1;
+  width: 95%;
+  display: flex;
+  padding-left: 20px;
+  border-radius: 20px;
+  height: 6vh;
+  align-items: center;
+}
+
+.pdscontent1 {
+  width: 95%;
+  font-size: 12px;
+  display: flex;
+  gap: 93px;
+  font-weight: 800;
+}
+.hori {
+  display: flex;
+  justify-content: center;
+}
+
+.horizontal {
+  width: 95%;
+}
+
+.describe {
+  padding-right: 117px;
+  padding-left: 1px;
+}
+
+.healthproblem1 {
+  /* border: 2px solid rgb(163, 60, 60); */
+  display: flex;
+  justify-content: center;
+}
+
+.problem1 {
+  width: 89%;
+  font-size: 12px;
+  /* border: 2px solid orange; */
+  display: flex;
+}
+
+.problem1row {
+  width: 17vw;
+}
+
+.problem2row {
+  width: 22vw;
+}
+
+.problem3row {
+  width: 7vw;
+  padding-left: 12px;
+}
+
+.basecol {
+  display: flex;
+  flex-direction: column;
+  gap: 23px;
+  padding-top: 20px;
+}
+
+.healthholdings {
+  gap: 23px;
+}
+
+.justifybase {
+  /* border: 2px solid red; */
+  display: flex;
+  justify-content: space-evenly;
+  padding-right: 12px;
+}
+
+.slide3 {
+  background-color: rgba(128, 128, 128, 0.304);
+  width: 0.3vw;
+  border-radius: 12px;
+}
+
+.holdslide {
+  background-color: rgba(0, 0, 0, 0.928);
+  height: 20vh;
+  border-radius: 12px;
+}
